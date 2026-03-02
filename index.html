@@ -30,6 +30,76 @@
             padding: 14px;
             margin-bottom: 12px;
         }
+
+        h1,h2{
+            color: rgb(255, 221,0);
+            margin: 0 0 8px;
+        }
+
+        .subtitulo {
+            margin: 0;
+            color: #d1d5db;
+        }
+
+        p {
+            color: whitesmoke;
+        }
+
+        #apresentacao {
+            border-left: 8px solid rgb(255, 221,0);
+        }
+
+    .nav {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 10px;
+        flex-wrap: nowrap;
+        }
+
+        .nav-link {
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            background: rgb(255, 221,0);
+            padding: 8px 10px;
+            border-radius: 10px;
+            font-weight: 700;
+        }
+
+        .nav-link:hover {
+            background: rgb(255, 200,0);
+        }
+
+        .gallery {
+            width: 920px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: nowrap;
+        }
+
+        .bat-img {
+            width: 220px;
+            heigth: 120px;
+            border: 2px solid aliceblue;
+            border-radius: 10px;
+
+        }
+
+        footer p {
+            color: rgb(233, 21, 187);
+            margin: 6px 0 0;
+        }
+
+        .link {
+            color: rgb(255, 221,0);
+            text-decoration: none;
+        }
+
+        .link:hover {
+            text-decoration: underline
+        }
     </style>
 </head>
 <body id="topo">
@@ -67,10 +137,10 @@
                 </section>
                 <section class="box" id="galeria">
                     <h2>Galeria</h2>
-                    <div class="galery" id="galeria-imagens">
-                        <img src="https://i.redd.it/rswt5cbrxqda1.jpg" width="220" heigth="120" alt="batman que ri">
-                        <img src="https://i.redd.it/this-scene-just-screamed-aura-he-looks-so-good-v0-stu3spflcrid1.png?width=1920&format=png&auto=webp&s=32b959e79d389aa0b457c818f6287425661b4f80"  width="220" heigth="120" alt="batman aura">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3WgkPGNZPDcKV0a9f5QJjiygxVFM3tUSgZw&s" width="220" heigth="120" alt="batman x coringa">
+                    <div class="gallery" id="galeria-imagens">
+                        <img class="bat-img"src="https://i.redd.it/rswt5cbrxqda1.jpg"alt="batman que ri">
+                        <img class="bat-img" src="https://i.redd.it/this-scene-just-screamed-aura-he-looks-so-good-v0-stu3spflcrid1.png?width=1920&format=png&auto=webp&s=32b959e79d389aa0b457c818f6287425661b4f80"alt="batman aura">
+                        <img class="bat-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3WgkPGNZPDcKV0a9f5QJjiygxVFM3tUSgZw&s"alt="batman x coringa">
                     </div>
                 </section>
             </main>
